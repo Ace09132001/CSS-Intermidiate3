@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+}
+p {
+    font-size: 1em;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625em;
+    margin-top: 0;
+    font-family: 'Sacramento', sans-serif;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: 3px solid #C9F6FF;
+}
+
+.top-container {
+    background-color: #C9F6FF;
+    position: relative;
+    padding: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.image-profile{
+    border: 10px solid;
+    border-color: cyan;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 200%;
+}
+
+.image-skills1 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-color: #C9F6FF;
+}
+
+.image-skills2 {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: right;
+    background-color: #C9F6FF;
+}
+
+.middle-container .skills .skill-row .image-skills1 {
+    margin-right: 30px;
+}
+
+.middle-container .skills .skill-row .image-skills2 {
+    margin-right: 30px;
+}
+
+.contact-me {
+    margin: 100px 400px 50px 400px;
+}
+.btn {
+    background-image: linear-gradient(to bottom right, cyan, black);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #C9F6FF;
+    height: 150px;
+}
+
+.footer-link {
+    background-image: linear-gradient(to bottom right, cyan, deeppink);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
